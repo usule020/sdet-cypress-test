@@ -3,7 +3,7 @@ name: Run Cypress tests on docker
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-run:
